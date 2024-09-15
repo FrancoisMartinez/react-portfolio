@@ -1,0 +1,35 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #d2d2d7;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #6e6e73;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
