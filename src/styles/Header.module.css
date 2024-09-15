@@ -3,36 +3,59 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #ffffff;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: var(--header-background-color);
+    transition: background-color 0.3s;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #000;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav a {
     margin-left: 1.5rem;
     text-decoration: none;
-    color: #000;
+    color: var(--text-color);
     font-size: 1rem;
     transition: color 0.3s;
     cursor: pointer;
 }
 
 .nav a:hover {
-    color: #0071e3; /* Apple's signature blue */
+    color: var(--link-color);
+}
+
+.themeToggle {
+    margin-left: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.themeToggle:focus {
+    outline: none;
 }
 
 @media (max-width: 768px) {
     .nav a {
         margin-left: 1rem;
         font-size: 0.9rem;
+    }
+
+    .themeToggle {
+        margin-left: 1rem;
     }
 }

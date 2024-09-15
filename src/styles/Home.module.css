@@ -1,3 +1,31 @@
+/* Remove background-color from .about and .contact */
+.about {
+    /* existing styles */
+    background-color: var(--background-color);
+}
+
+.contact {
+    /* existing styles */
+    background-color: var(--background-color);
+}
+
+.projects {
+    /* existing styles */
+    background-color: var(--card-background-color);
+}
+
+/* Update text colors */
+.about h1,
+.about p,
+.contact h2,
+.contact p {
+    color: var(--text-color);
+}
+
+/* existing media queries */
+
+/* Remove any hardcoded colors and use CSS variables */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,58 +33,61 @@
 }
 
 .mainContent {
-    padding-top: 80px; /* Offset for the fixed header */
+    padding-top: 60px; /* Adjust this value to match the header's height */
     flex: 1;
 }
 
 .about {
     text-align: center;
     padding: 6rem 2rem;
-    background-color: #ffffff;
+    background-color: var(--background-color);
 }
 
 .about h1 {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: var(--text-color);
 }
 
 .about p {
     font-size: 1.2rem;
-    color: #6e6e73;
+    color: var(--secondary-text-color);
     max-width: 600px;
     margin: 0 auto;
 }
 
 .projects {
     padding: 4rem 2rem;
-    background-color: #f5f5f7;
+    background-color: var(--background-color);
 }
 
 .projects h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: var(--text-color);
 }
 
 .contact {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #ffffff;
+    background-color: var(--background-color);
 }
 
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--text-color);
 }
 
 .contact p {
     font-size: 1rem;
-    color: #6e6e73;
+    color: var(--secondary-text-color);
 }
 
 .contact a {
-    color: #0071e3;
+    color: #0071e3; /* You can also define a variable for link color */
     text-decoration: none;
 }
 
@@ -65,20 +96,5 @@
 }
 
 @media (max-width: 768px) {
-    .about h1 {
-        font-size: 2rem;
-    }
-
-    .about p {
-        font-size: 1rem;
-    }
-
-    .projects h2,
-    .contact h2 {
-        font-size: 1.5rem;
-    }
-
-    .contact p {
-        font-size: 0.9rem;
-    }
+    /* Responsive styles */
 }
