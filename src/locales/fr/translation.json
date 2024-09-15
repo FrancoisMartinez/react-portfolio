@@ -1,0 +1,31 @@
+{
+  "header": {
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "downloadCV": "Télécharger le CV"
+  },
+  "home": {
+    "greeting": "Bonjour, je suis YourName",
+    "description": "Je suis un(e) [Votre Profession] spécialisé(e) en [Votre Spécialisation]. Passionné(e) par la création de solutions percutantes grâce à la technologie."
+  },
+  "projects": {
+    "title": "Projets",
+    "projectOne": {
+      "title": "Projet Un",
+      "description": "Une brève description du Projet Un."
+    },
+    "projectTwo": {
+      "title": "Projet Deux",
+      "description": "Une brève description du Projet Deux."
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

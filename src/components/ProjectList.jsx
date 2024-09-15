@@ -1,15 +1,25 @@
 import React from 'react';
 import styles from '../styles/ProjectList.module.css';
-import projects from '../data/projects.js';
+import projects from '../data/projects';
+import { useTranslation } from 'react-i18next';
 
 const ProjectList = () => {
+    const { t } = useTranslation();
+
     return (
         <div className={styles.list}>
             {projects.map((project) => (
                 <div key={project.id} className={styles.card}>
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
-                    {/* Add more project details or links */}
+                    {project.image && (
+                        <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
+                    )}
+                    <h2>{t(project.titleKey)}</h2>
+                    <p>{t(project.descriptionKey)}</p>
+                    {project.link && (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+                            {t('projects.viewProject')}
+                        </a>
+                    )}
                 </div>
             ))}
         </div>

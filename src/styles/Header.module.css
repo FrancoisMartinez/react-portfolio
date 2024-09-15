@@ -49,6 +49,20 @@
     outline: none;
 }
 
+.languageSwitcher {
+    margin-left: 1rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.languageSwitcher:focus {
+    outline: none;
+}
+
+
 @media (max-width: 768px) {
     .nav a {
         margin-left: 1rem;
@@ -57,5 +71,8 @@
 
     .themeToggle {
         margin-left: 1rem;
+    }
+    .languageSwitcher {
+        margin-left: 0.5rem;
     }
 }
