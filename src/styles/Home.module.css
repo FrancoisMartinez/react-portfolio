@@ -35,6 +35,8 @@
 .mainContent {
     padding-top: 60px; /* Adjust this value to match the header's height */
     flex: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .about {

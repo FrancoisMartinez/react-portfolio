@@ -23,14 +23,22 @@ const Home = () => {
                 <section id="contact" className={styles.contact}>
                     <h2>{t('contact.title')}</h2>
                     <p>
-                        {t('contact.email')}: <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        Email: <a
+                        href="mailto:francoisjmartinez07@gmail.com">francoisjmartinez07@gmail.com</a>
                     </p>
                     <p>
-                        {t('contact.linkedin')}: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">Your LinkedIn</a>
+                        LinkedIn: <a href="https://www.linkedin.com/in/francois-j-martinez/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer">www.linkedin.com/in/francois-j-martinez</a>
+                    </p>
+                    <p>
+                        GitHub: <a href="https://github.com/FrancoisMartinez"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer">FrancoisMartinez</a>
                     </p>
                 </section>
             </main>
-            <Footer />
+            <Footer/>
         </div>
     );
 };

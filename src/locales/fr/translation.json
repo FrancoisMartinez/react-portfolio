@@ -6,8 +6,8 @@
     "downloadCV": "Télécharger le CV"
   },
   "home": {
-    "greeting": "Bonjour, je suis YourName",
-    "description": "Je suis un(e) [Votre Profession] spécialisé(e) en [Votre Spécialisation]. Passionné(e) par la création de solutions percutantes grâce à la technologie."
+    "greeting": "Bonjour, je suis François Martinez",
+    "description": "Je suis étudiant en génie logiciel à l’Université Concordia, avec un intérêt pour les dernières technologies de développement web et la programmation. Expérimenté en développement full-stack avec le stack MERN et Java, je suis enthousiaste à l'idée d'apprendre continuellement et d'explorer de nouvelles technologies pour élargir mes compétences."
   },
   "projects": {
     "title": "Projets",
@@ -21,9 +21,7 @@
     }
   },
   "contact": {
-    "title": "Contactez-moi",
-    "email": "Email",
-    "linkedin": "LinkedIn"
+    "title": "Contactez-moi"
   },
   "footer": {
     "rights": "Tous droits réservés."

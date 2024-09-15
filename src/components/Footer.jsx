@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <p>
-                &copy; {new Date().getFullYear()} YourName. {t('footer.rights')}
+                &copy; {new Date().getFullYear()} FrançoisMartinez. {t('footer.rights')}
             </p>
         </footer>
     );

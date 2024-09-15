@@ -6,8 +6,8 @@
     "downloadCV": "Download CV"
   },
   "home": {
-    "greeting": "Hi, I'm YourName",
-    "description": "I'm a [Your Profession] specializing in [Your Specialization]. Passionate about creating impactful solutions through technology."
+    "greeting": "Hi, François Martinez",
+    "description": "I’m a Software Engineering Co-op student at Concordia University with an interest in the latest web development technologies and programming. Experienced in full-stack development using the MERN stack and Java, I’m excited to continuously learn and explore new technologies to expand my skill set."
   },
   "projects": {
     "title": "Projects",
@@ -21,9 +21,7 @@
     }
   },
   "contact": {
-    "title": "Contact Me",
-    "email": "Email",
-    "linkedin": "LinkedIn"
+    "title": "Contact Me"
   },
   "footer": {
     "rights": "All rights reserved."

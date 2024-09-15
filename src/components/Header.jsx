@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <a href="/" className={styles.logo}>
-                YourName
+                FrançoisMartinez
             </a>
             <nav className={styles.nav}>
                 <Link to="about" smooth={true} duration={500}>

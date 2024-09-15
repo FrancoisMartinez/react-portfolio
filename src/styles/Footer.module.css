@@ -5,6 +5,9 @@
     color: var(--secondary-text-color);
     margin-top: auto;
     font-size: 0.9rem;
+    position: relative;
+    z-index: 1000;
+
 }
 
 @media (max-width: 768px) {

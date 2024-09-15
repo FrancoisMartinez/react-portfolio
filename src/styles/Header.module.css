@@ -9,6 +9,7 @@
     z-index: 1000;
     background-color: var(--header-background-color);
     transition: background-color 0.3s;
+
 }
 
 .logo {
