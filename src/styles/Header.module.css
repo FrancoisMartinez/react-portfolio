@@ -1,3 +1,5 @@
+/* Base styles */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,7 +11,6 @@
     z-index: 1000;
     background-color: var(--header-background-color);
     transition: background-color 0.3s;
-
 }
 
 .logo {
@@ -17,6 +18,16 @@
     font-weight: bold;
     color: var(--text-color);
     text-decoration: none;
+}
+
+/* Menu Toggle Button */
+.menuToggle {
+    display: none; /* Hidden by default */
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
 }
 
 .nav {
@@ -53,29 +64,60 @@
 .languageSwitcher {
     margin-left: 1rem;
     background-color: var(--background-color);
-    border: 1px solid var(--secondary-text-color);
     color: var(--text-color);
+    border: 1px solid var(--secondary-text-color);
+    padding: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
-    padding: 0.5rem;
     border-radius: 4px;
 }
 
-.languageSwitcher:focus {
-    outline: none;
-}
-
+/* Responsive styles */
 
 @media (max-width: 768px) {
-    .nav a {
-        margin-left: 1rem;
-        font-size: 0.9rem;
+    /* Show menu toggle button */
+    .menuToggle {
+        display: block;
     }
 
-    .themeToggle {
-        margin-left: 1rem;
+    /* Adjust header layout */
+    .header {
+        justify-content: space-between;
     }
+
+    /* Hide nav by default */
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 250px;
+        background-color: var(--header-background-color);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    /* Show nav when open */
+    .navOpen {
+        right: 0;
+    }
+
+    .nav a,
+    .themeToggle,
     .languageSwitcher {
-        margin-left: 0.5rem;
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    .nav a {
+        margin-left: 0;
+    }
+
+    .themeToggle,
+    .languageSwitcher {
+        margin-left: 0;
     }
 }
