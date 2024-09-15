@@ -5,7 +5,7 @@
     --text-color: #000000;
     --secondary-text-color: #6e6e73;
     --card-background-color: #f8f8f8;
-    --header-background-color: #c6c6c6;
+    --header-background-color: #f8f8f8;
 }
 
 [data-theme='dark'] {
@@ -13,7 +13,7 @@
     --text-color: #f5f5f7;
     --secondary-text-color: #a1a1aa;
     --card-background-color: #2c2c2e;
-    --header-background-color: #343437;
+    --header-background-color: #2c2c2e;
 }
 
 body {
