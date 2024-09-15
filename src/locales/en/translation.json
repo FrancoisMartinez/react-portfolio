@@ -11,14 +11,24 @@
   },
   "projects": {
     "title": "Projects",
-    "projectOne": {
-      "title": "Project One",
-      "description": "A brief description of Project One."
+
+    "paperTrading": {
+      "title": "MERN Full Stack Paper Trading Platform (Personal) 2024",
+      "description": "Co-developed a paper trading platform simulating U.S. equities trading with real-time market data."
     },
-    "projectTwo": {
-      "title": "Project Two",
-      "description": "A brief description of Project Two."
-    }
+    "petAdoption": {
+      "title": "Full Stack Pet Adoption Service (Academic) 2024",
+      "description": "Created a web application for a pet adoption service, allowing users to register and manage pet listings."
+    },
+    "marketForecaster": {
+      "title": "Machine Learning Market Forecaster (Personal) 2024",
+      "description": "Developed a tool predicting Bitcoin and S&P 500 prices using machine learning models based on historical data."
+    },
+    "othelloGame": {
+      "title": "Java Othello Game (Academic) 2024",
+      "description": "Built a fully functional Othello game in Java, implementing core mechanics and object-oriented design."
+    },
+    "viewProject": "View Project"
   },
   "contact": {
     "title": "Contact Me"
