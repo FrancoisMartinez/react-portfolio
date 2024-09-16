@@ -7,6 +7,7 @@
     --card-background-color: #f8f8f8;
     --header-background-color: #f8f8f8;
     --gradient-color: linear-gradient(45deg, #FF6584, #6c63ff);
+    --link-color: #6c63ff;
 }
 
 [data-theme='dark'] {
