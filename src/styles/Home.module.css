@@ -65,11 +65,13 @@
 }
 
 .contact a {
-    color: #0071e3; /* You can also define a variable for link color */
+    color: var(--link-color);
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .contact a:hover {
+    color: var(--hover-link-color);
     text-decoration: underline;
 }
 

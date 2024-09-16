@@ -38,8 +38,14 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--text-color);
+    color: var(--link-color);
     z-index: 1001;
+    transition: color 0.3s;
+
+}
+
+.menuToggle:hover {
+    color: var(--hover-link-color);
 }
 
 .nav {
@@ -51,7 +57,7 @@
 .nav a, .nav button {
     white-space: nowrap;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--link-color);
     font-size: 1rem;
     transition: color 0.3s;
     cursor: pointer;
@@ -61,7 +67,7 @@
 }
 
 .nav a:hover, .nav button:hover {
-    color: var(--link-color);
+    color: var(--hover-link-color);
 }
 
 .navMobile {
@@ -84,13 +90,16 @@
 
 .navMobile a, .navMobile button {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--link-color);
     font-size: 1rem;
     transition: color 0.3s;
     cursor: pointer;
     background: none;
     border: none;
     font-family: inherit;
+}
+.navMobile a:hover, .navMobile button:hover {
+    color: var(--hover-link-color);
 }
 
 
