@@ -94,5 +94,8 @@
 }
 
 @media (max-width: 768px) {
+    .about {
+        padding: 8rem 2rem 4rem 2rem;
+    }
 
 }
