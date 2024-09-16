@@ -15,9 +15,8 @@ const Home = () => {
                 <section id="about" className={styles.about}>
                     <h1>{t('home.greeting')}</h1>
                     <div className={styles.border}>
-                        <img className={styles.img}
-                             src="https://media.licdn.com/dms/image/v2/D4E03AQGh1dq2UpTucw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1708543250116?e=1732147200&v=beta&t=ZTIUivSoIzct7D1dpkQFGzj002_Agt9JfdrZ6cBRmF0"
-                             alt="Francois Martinez"/>
+                        <img className={styles.img} src="/headShot.jpg" alt="Francois Martinez"/>
+
 
                     </div>
                     <p>{t('home.description')}</p>

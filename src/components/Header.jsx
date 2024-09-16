@@ -5,6 +5,7 @@ import { ThemeContext } from '../contexts/ThemeContext';
 import { useTranslation } from 'react-i18next';
 import { FaBars } from 'react-icons/fa';
 
+
 const Header = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const { t, i18n } = useTranslation();
@@ -35,12 +36,10 @@ const Header = () => {
 
 
     const handleOpenPDF = () => {
-        const pdfUrl = i18n.language === 'en'
-            ? "/Martinez_F_40300308_CV_En.pdf"
-            : "/Martinez_F_40300308_CV_Fr.pdf";
-
+        const pdfUrl = i18n.language === 'en' ? '/Martinez_F_40300308_CV_En.pdf' : '/Martinez_F_40300308_CV_Fr.pdf';
         window.open(pdfUrl, '_blank', 'noopener,noreferrer');
     };
+
 
     return (
         <header className={styles.header}>
