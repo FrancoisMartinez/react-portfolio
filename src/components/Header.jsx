@@ -73,14 +73,15 @@ const Header = () => {
                 <button onClick={toggleTheme} className={styles.themeToggle}>
                     {theme === 'light' ? '🌙' : '☀️'}
                 </button>
-                <select
-                    onChange={(e) => changeLanguage(e.target.value)}
-                    value={i18n.language}
+                <button
+                    onClick={() => {
+                        const newLanguage = i18n.language === 'en' ? 'fr' : 'en';
+                        changeLanguage(newLanguage);
+                    }}
                     className={styles.languageSwitcher}
                 >
-                    <option value="en">EN</option>
-                    <option value="fr">FR</option>
-                </select>
+                    {i18n.language === 'en' ? 'Fr' : 'En'}
+                </button>
             </nav>
         </header>
     );
