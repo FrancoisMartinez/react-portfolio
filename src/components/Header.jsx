@@ -36,6 +36,17 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+
+    const handleOpenPDF = () => {
+        const pdfUrl = i18n.language === 'en'
+            ? "/data/Martinez_F_40300308_CV_En.pdf"
+            : "/data/Martinez_F_40300308_CV_Fr.pdf"
+        ;
+
+        // Open the PDF in a new tab
+        window.open(pdfUrl, '_blank', 'noopener,noreferrer');
+    };
+
     return (
         <header className={styles.header}>
             <div className={styles.headerContainer}>
@@ -63,11 +74,7 @@ const Header = () => {
                 <Link to="contact" smooth={true} duration={500}>
                     {t('header.contact')}
                 </Link>
-                <a
-                    href={i18n.language === 'en' ? "./data/Martinez_F_40300308_CV_En.pdf" : "./data/Martinez_F_40300308_CV_Fr.pdf"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                <a onClick={handleOpenPDF}>
                     {t('header.downloadCV')}
                 </a>
                 <button onClick={toggleTheme} className={styles.themeToggle}>
