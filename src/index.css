@@ -1,11 +1,12 @@
 
-/* Define CSS variables for themes */
+
 :root {
     --background-color: #ffffff;
     --text-color: #000000;
     --secondary-text-color: #6e6e73;
     --card-background-color: #f8f8f8;
     --header-background-color: #f8f8f8;
+    --gradient-color: linear-gradient(45deg, #FF6584, #6c63ff);
 }
 
 [data-theme='dark'] {
@@ -58,4 +59,20 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 1.6;
     margin: 0 0 1rem 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gradient-color);
+    border-radius: 10px;
 }

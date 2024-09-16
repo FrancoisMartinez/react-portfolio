@@ -9,17 +9,21 @@ const ProjectList = () => {
     return (
         <div className={styles.list}>
             {projects.map((project) => (
-                <div key={project.id} className={styles.card}>
-                    {project.image && (
-                        <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
-                    )}
-                    <h2>{t(project.titleKey)}</h2>
-                    <p>{t(project.descriptionKey)}</p>
-                    {project.link && (
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
-                            {t('projects.viewProject')}
-                        </a>
-                    )}
+                <div key={project.id} className={styles.border}>
+                    <div className={styles.card}>
+                        {project.image && (
+                            <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
+                        )}
+                        <h2>{t(project.titleKey)}</h2>
+                        <p>{t(project.descriptionKey)}</p>
+                        {project.link && (
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+                                {t('projects.viewProject')}
+                            </a>
+                        )}
+
+                    </div>
+
                 </div>
             ))}
         </div>

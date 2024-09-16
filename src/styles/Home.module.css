@@ -1,30 +1,3 @@
-/* Remove background-color from .about and .contact */
-.about {
-    /* existing styles */
-    background-color: var(--background-color);
-}
-
-.contact {
-    /* existing styles */
-    background-color: var(--background-color);
-}
-
-.projects {
-    /* existing styles */
-    background-color: var(--card-background-color);
-}
-
-/* Update text colors */
-.about h1,
-.about p,
-.contact h2,
-.contact p {
-    color: var(--text-color);
-}
-
-/* existing media queries */
-
-/* Remove any hardcoded colors and use CSS variables */
 
 .container {
     display: flex;
@@ -33,7 +6,6 @@
 }
 
 .mainContent {
-    padding-top: 60px; /* Adjust this value to match the header's height */
     flex: 1;
     position: relative;
     z-index: 1;
@@ -41,8 +13,9 @@
 
 .about {
     text-align: center;
-    padding: 6rem 2rem;
+    padding: 16rem 2rem 4rem 2rem;
     background-color: var(--background-color);
+
 }
 
 .about h1 {
