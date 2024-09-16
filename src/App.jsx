@@ -7,7 +7,15 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* Add more routes for additional pages */}
+                <Route
+                    path="/Martinez_F_40300308_CV_En.pdf"
+                    element={<a href="/Martinez_F_40300308_CV_En.pdf" target="_blank" rel="noopener noreferrer">Download English CV</a>}
+                />
+                <Route
+                    path="/Martinez_F_40300308_CV_Fr.pdf"
+                    element={<a href="/Martinez_F_40300308_CV_Fr.pdf" target="_blank" rel="noopener noreferrer">Download French CV</a>}
+                />
+                <Route path="*" element={<div>Page Not Found</div>} />
             </Routes>
         </Router>
     );

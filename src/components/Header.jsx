@@ -13,20 +13,17 @@ const Header = () => {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth > 768 && isMenuOpen) {
-                setIsMenuOpen(false); // Close the menu if resizing above 768px
+                setIsMenuOpen(false);
             }
         };
 
-        // Add event listener for window resize
         window.addEventListener('resize', handleResize);
 
-        // Clean up event listener on unmount
         return () => {
             window.removeEventListener('resize', handleResize);
         };
     }, [isMenuOpen]);
 
-    // Language toggle function
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
     };
@@ -39,11 +36,9 @@ const Header = () => {
 
     const handleOpenPDF = () => {
         const pdfUrl = i18n.language === 'en'
-            ? "/data/Martinez_F_40300308_CV_En.pdf"
-            : "/data/Martinez_F_40300308_CV_Fr.pdf"
-        ;
+            ? "/Martinez_F_40300308_CV_En.pdf"
+            : "/Martinez_F_40300308_CV_Fr.pdf";
 
-        // Open the PDF in a new tab
         window.open(pdfUrl, '_blank', 'noopener,noreferrer');
     };
 
@@ -78,7 +73,7 @@ const Header = () => {
                     {t('header.downloadCV')}
                 </a>
                 <button onClick={toggleTheme} className={styles.themeToggle}>
-                    {theme === 'light' ? '🌙' : '☀️'}
+                {theme === 'light' ? '🌙' : '☀️'}
                 </button>
                 <button
                     onClick={() => {
@@ -100,12 +95,7 @@ const Header = () => {
                 <Link to="contact" smooth={true} duration={500} onClick={toggleMenu}>
                     {t('header.contact')}
                 </Link>
-                <a
-                    href="/cv.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={toggleMenu}
-                >
+                <a onClick={handleOpenPDF}>
                     {t('header.downloadCV')}
                 </a>
                 <button onClick={toggleTheme} className={styles.themeToggle}>
