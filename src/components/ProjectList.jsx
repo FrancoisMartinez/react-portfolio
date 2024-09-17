@@ -3,6 +3,7 @@ import styles from '../styles/ProjectList.module.css';
 import projects from '/public/data/projects.js';
 import { useTranslation } from 'react-i18next';
 
+
 const ProjectList = () => {
     const { t } = useTranslation();
 

@@ -2,6 +2,7 @@
   "header": {
     "about": "À propos",
     "projects": "Projets",
+    "skills": "Compétences",
     "contact": "Contact",
     "downloadCV": "Télécharger le CV"
   },
@@ -28,6 +29,11 @@
       "description": "Conçu un jeu d'Othello en Java, en implémentant les mécanismes de base et le design orienté objet."
     },
     "viewProject": "Voir le projet"
+  },
+  "skills": {
+    "title": "Compétences",
+    "app": "Applications et outils",
+    "programming": "Programmation"
   },
   "contact": {
     "title": "Contactez-moi"

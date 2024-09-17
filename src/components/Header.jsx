@@ -65,6 +65,9 @@ const Header = () => {
                 <Link to="projects" smooth={true} duration={500}>
                     {t('header.projects')}
                 </Link>
+                <Link to="skills" smooth={true} duration={500}>
+                    {t('header.skills')}
+                </Link>
                 <Link to="contact" smooth={true} duration={500}>
                     {t('header.contact')}
                 </Link>

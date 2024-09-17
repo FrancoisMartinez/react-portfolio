@@ -4,6 +4,7 @@ import ProjectList from './ProjectList';
 import Header from './Header';
 import Footer from './Footer';
 import { useTranslation } from 'react-i18next';
+import Skills from "./Skills.jsx";
 
 const Home = () => {
     const { t } = useTranslation();
@@ -12,19 +13,25 @@ const Home = () => {
         <div className={styles.container}>
             <Header />
             <main className={styles.mainContent}>
+
                 <section id="about" className={styles.about}>
                     <h1>{t('home.greeting')}</h1>
                     <div className={styles.border}>
                         <img className={styles.img} src="/headShot.jpg" alt="Francois Martinez"/>
-
-
                     </div>
                     <p>{t('home.description')}</p>
                 </section>
+
                 <section id="projects" className={styles.projects}>
                     <h2>{t('projects.title')}</h2>
                     <ProjectList/>
                 </section>
+
+                <section id="skills" className={styles.skills}>
+                    <h2>{t('skills.title')}</h2>
+                    <Skills/>
+                </section>
+
                 <section id="contact" className={styles.contact}>
                     <h2>{t('contact.title')}</h2>
                     <p>
@@ -42,6 +49,7 @@ const Home = () => {
                                                     rel="noopener noreferrer">FrancoisMartinez</a>
                     </p>
                 </section>
+
             </main>
             <Footer/>
         </div>

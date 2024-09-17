@@ -2,6 +2,7 @@
   "header": {
     "about": "About",
     "projects": "Projects",
+    "skills": "Skills",
     "contact": "Contact",
     "downloadCV": "Download CV"
   },
@@ -29,6 +30,12 @@
       "description": "Built a fully functional Othello game in Java, implementing core mechanics and object-oriented design."
     },
     "viewProject": "View Project"
+  },
+  "skills": {
+    "title": "Skills",
+    "app": "Applications & Tools",
+    "programming": "Programming"
+
   },
   "contact": {
     "title": "Contact Me"
