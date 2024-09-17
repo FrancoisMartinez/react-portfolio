@@ -13,19 +13,19 @@
   "projects": {
     "title": "Projets",
     "paperTrading": {
-      "title": "Plateforme de Trading Virtuel MERN Full Stack (Personnel) 2024",
+      "title": "Plateforme de Trading Virtuel MERN Full Stack",
       "description": "Co-développement d'une plateforme simulant le trading d'actions américaines avec des données en temps réel."
     },
     "petAdoption": {
-      "title": "Service d'Adoption d'Animaux Full Stack (Académique) 2024",
+      "title": "Service d'Adoption d'Animaux Full Stack",
       "description": "Création d'une application web pour l'adoption d'animaux, permettant l'inscription et la gestion des annonces."
     },
     "marketForecaster": {
-      "title": "Prévisionniste de Marché en Machine Learning (Personnel) 2024",
+      "title": "Prévisionniste de Marché en Machine Learning",
       "description": "Développé un outil prédisant les prix du Bitcoin et du S&P 500 à l'aide de modèles de machine learning."
     },
     "othelloGame": {
-      "title": "Jeu d'Othello en Java (Académique) 2024",
+      "title": "Jeu d'Othello en Java",
       "description": "Conçu un jeu d'Othello en Java, en implémentant les mécanismes de base et le design orienté objet."
     },
     "viewProject": "Voir le projet"
