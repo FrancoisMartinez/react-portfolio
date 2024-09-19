@@ -18,6 +18,8 @@
     --header-background-color: rgba(44, 44, 46, 0.5);
     --hover-link-color: #FF6584;
     --link-color: #6c63ff;
+    --gradient-color: linear-gradient(45deg, #FF6584, #6c63ff);
+
 }
 
 [data-theme='light'] {
@@ -34,7 +36,6 @@
     --secondary-text-color: #6e6e73;
     --card-background-color: #f8f8f8;
     --header-background-color: rgba(248, 248, 248, 0.5);
-    --gradient-color: linear-gradient(45deg, #FF6584, #6c63ff);
     --hover-link-color: #FF6584;
     --link-color: #6c63ff;
 }
@@ -46,6 +47,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    overflow-y: scroll;
 }
 html {
     height: 100%;
@@ -84,7 +86,6 @@ p {
 
 ::-webkit-scrollbar-track {
     background-color: var(--background-color);
-
 }
 
 ::-webkit-scrollbar-thumb {
