@@ -6,7 +6,6 @@ export const ThemeProvider = ({ children }) => {
 
 
 
-    // Check localStorage for saved theme or default to 'dark'
     const [theme, setTheme] = useState(
         localStorage.getItem('theme') || 'dark'
     );
@@ -17,7 +16,6 @@ export const ThemeProvider = ({ children }) => {
     }, [theme]);
 
 
-    // Toggle theme function
     const toggleTheme = () => {
         setTheme((curr) => (curr === 'light' ? 'dark' : 'light'));
     };
