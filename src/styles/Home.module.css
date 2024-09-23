@@ -68,11 +68,13 @@
     color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s;
+    margin-left: 0.5rem;
 }
 
 .contact a:hover {
     color: var(--hover-link-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .skills {

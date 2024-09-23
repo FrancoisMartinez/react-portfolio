@@ -36,7 +36,9 @@
     "programming": "Programmation"
   },
   "contact": {
-    "title": "Contactez-moi"
+    "title": "Contactez-moi",
+    "English": "Anglais",
+    "French": "Français"
   },
   "footer": {
     "rights": "Tous droits réservés."

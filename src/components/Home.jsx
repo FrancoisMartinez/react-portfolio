@@ -35,19 +35,30 @@ const Home = () => {
                 <section id="contact" className={styles.contact}>
                     <h2>{t('contact.title')}</h2>
                     <p>
-                        Email: <a
+                        Email:<a
                         href="mailto:francoisjmartinez07@gmail.com">francoisjmartinez07@gmail.com</a>
                     </p>
                     <p>
-                        LinkedIn: <a href="https://www.linkedin.com/in/francois-j-martinez/"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer">www.linkedin.com/in/francois-j-martinez</a>
+                        LinkedIn:<a href="https://www.linkedin.com/in/francois-j-martinez/"
+                                     target="_blank"
+                                     rel="noopener noreferrer">www.linkedin.com/in/francois-j-martinez</a>
                     </p>
                     <p>
-                        GitHub: <a href="https://github.com/FrancoisMartinez"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer">FrancoisMartinez</a>
+                        GitHub:<a href="https://github.com/FrancoisMartinez"
+                                   target="_blank"
+                                   rel="noopener noreferrer">FrancoisMartinez</a>
                     </p>
+
+                    <p>
+                        CV:
+                        <a onClick={() => {
+                            window.open('/Martinez_F_CV_En.pdf', '_blank');
+                        }}>{t('contact.English')}</a>
+                        <a onClick={() => {
+                            window.open('/Martinez_F_CV_Fr.pdf', '_blank');
+                        }}>{t('contact.French')}</a>
+                    </p>
+
                 </section>
 
             </main>

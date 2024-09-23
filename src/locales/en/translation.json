@@ -38,7 +38,9 @@
 
   },
   "contact": {
-    "title": "Contact Me"
+    "title": "Contact Me",
+    "English": "English",
+    "French": "French"
   },
   "footer": {
     "rights": "All rights reserved."
