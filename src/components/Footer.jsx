@@ -7,6 +7,7 @@ const Footer = () => {
 
     return (
         <footer className={styles.footer}>
+            <p>{t('footer.build')} <a href="https://react.dev/">React</a> ;)</p>
             <p>
                 &copy; {new Date().getFullYear()} FrançoisMartinez. {t('footer.rights')}
             </p>

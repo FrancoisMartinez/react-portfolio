@@ -1,6 +1,7 @@
 .footer {
-    text-align: center;
-    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
     background-color: var(--background-color);
     color: var(--secondary-text-color);
     margin-top: auto;

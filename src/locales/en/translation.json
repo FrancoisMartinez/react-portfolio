@@ -43,6 +43,7 @@
     "French": "French"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "build" : "This website was built by me using "
   }
 }

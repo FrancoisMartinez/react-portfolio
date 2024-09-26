@@ -41,6 +41,8 @@
     "French": "Français"
   },
   "footer": {
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "build" : "Ce site web a été créé par moi en utilisant "
+
   }
 }
