@@ -15,6 +15,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     width: 100%;
+    background-color: var(--header-background-color);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 
@@ -37,18 +40,9 @@
     gap: 8px;
     border-radius: 10px;
     padding: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
     width: max-content;
-}
-.skillItem {
-
-    border-radius: 8px;
     padding: 10px 15px;
     height: 100%;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
     width: auto;
     text-align: center;
 
