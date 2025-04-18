@@ -1,0 +1,83 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background: var(--background-color);
+  }
+  
+  /* This container follows the mouse */
+  .mouseContainer {
+    position: absolute;
+    transition: transform 1s ease-out;
+  }
+  
+  /* Orbit wrappers are centered within the mouseContainer */
+  .orbitWrapper1,
+  .orbitWrapper2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  /* Orbit animations for each wrapper */
+  .orbitWrapper1 {
+    animation: orbit1 8s linear infinite;
+  }
+  
+  .orbitWrapper2 {
+    animation: orbit2 7s linear infinite;
+  }
+  
+  /* Base circle styles; center each circle relative to its orbit wrapper */
+  .circle1,
+  .circle2 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(1000px);
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle1 {
+    width: 800px;
+    height: 800px;
+    background: rgba(255, 0, 76, 0.15);
+  }
+  
+  .circle2 {
+    width: 600px;
+    height: 600px;
+    background: rgba(144, 0, 255, 0.1);
+  }
+  
+  /* Updated orbit keyframes that loop seamlessly */
+  
+  /* Orbit1 now smoothly varies its radius, but returns to the same state at 0% and 100% */
+  @keyframes orbit1 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(180deg) translateX(200px) rotate(-180deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
+  
+  /* Orbit2 now also uses a seamless loop with a slight variation */
+  @keyframes orbit2 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(75px) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(180deg) translateX(125px) rotate(-180deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(75px) rotate(-360deg);
+    }
+  }
+  

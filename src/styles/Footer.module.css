@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: var(--background-color);
     color: var(--secondary-text-color);
     margin-top: auto;
     font-size: 0.9rem;

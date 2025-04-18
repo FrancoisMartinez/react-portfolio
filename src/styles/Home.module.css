@@ -14,7 +14,6 @@
 .about {
     text-align: center;
     padding: 16rem 2rem 4rem 2rem;
-    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +36,6 @@
 
 .projects {
     padding: 4rem 2rem;
-    background-color: var(--background-color);
 }
 
 .projects h2 {
@@ -50,7 +48,6 @@
 .contact {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: var(--background-color);
 }
 
 .contact h2 {

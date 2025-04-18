@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import ProjectList from './ProjectList';
 import Header from './Header';
 import Footer from './Footer';
+import Background from './Background.jsx';
 import { useTranslation } from 'react-i18next';
 import Skills from "./Skills.jsx";
 
@@ -11,6 +12,7 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
+        <Background/>
             <Header />
             <main className={styles.mainContent}>
 
