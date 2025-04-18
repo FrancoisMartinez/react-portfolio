@@ -10,6 +10,9 @@
     "greeting": "Bonjour, je suis François Martinez",
     "description": "Je suis étudiant en génie logiciel à l’Université Concordia, avec un intérêt pour les dernières technologies de développement web et la programmation. Expérimenté en développement full-stack avec le stack MERN et Java, je suis enthousiaste à l'idée d'apprendre continuellement et d'explorer de nouvelles technologies pour élargir mes compétences."
   },
+  "work": {
+    "title": "Expérience Professionnels"
+  },
   "projects": {
     "title": "Projets",
     "paperTrading": {

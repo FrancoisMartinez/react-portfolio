@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
+import Work from './Work.jsx'
 import ProjectList from './ProjectList';
 import Header from './Header';
 import Footer from './Footer';
@@ -22,6 +23,11 @@ const Home = () => {
                         <img className={styles.img} src="/headShot.jpg" alt="Francois Martinez"/>
                     </div>
                     <p>{t('home.description')}</p>
+                </section>
+
+                <section id="work" className={styles.work}>
+                    <h2>{t('work.title')}</h2>
+                    <Work/>
                 </section>
 
                 <section id="projects" className={styles.projects}>
