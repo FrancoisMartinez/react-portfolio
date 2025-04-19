@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
-import Work from './Work.jsx'
+import Timeline from './Timeline.jsx'
 import ProjectList from './ProjectList';
 import Header from './Header';
 import Footer from './Footer';
@@ -25,9 +25,9 @@ const Home = () => {
                     <p>{t('home.description')}</p>
                 </section>
 
-                <section id="work" className={styles.work}>
-                    <h2>{t('work.title')}</h2>
-                    <Work/>
+                <section id="timeline" className={styles.work}>
+                    <h2>{t('timeline.title')}</h2>
+                    <Timeline/>
                 </section>
 
                 <section id="projects" className={styles.projects}>

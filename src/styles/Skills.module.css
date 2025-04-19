@@ -15,7 +15,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     width: 100%;
-    background-color: var(--header-background-color);
+    background-color: var(--transparent-background-color);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }

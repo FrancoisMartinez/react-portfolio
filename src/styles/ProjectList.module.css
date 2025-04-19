@@ -11,7 +11,7 @@
     height: 100%;
     padding: 2rem;
     border-radius: 10px;
-    background-color: var(--header-background-color);
+    background-color: var(--transparent-background-color);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
