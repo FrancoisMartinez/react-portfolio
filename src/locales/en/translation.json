@@ -10,8 +10,34 @@
     "greeting": "Hi, I'm François Martinez",
     "description": "I’m a Software Engineering Co-op student at Concordia University with an interest in the latest web development technologies and programming. Experienced in full-stack development using the MERN stack and Java, I’m excited to continuously learn and explore new technologies to expand my skill set."
   },
-  "Timeline": {
-    "title": "Timeline"
+  "timeline": {
+    "title": "Timeline",
+    
+    "cegep": {
+      "date": "2023",
+      "title": "CÉGEP Graduation",
+      "description": "Completed a DEC in Natural Sciences at Bois-de-Boulogne College."
+    },
+    "university": {
+      "date": "2024",
+      "title": "Started University",
+      "description": "Began a Bachelor's in Software Engineering at Concordia University in the Co-op program."
+    },
+    "internship1": {
+      "date": "Jan 2025 – May 2025",
+      "title": "First Software Development Internship",
+      "description": "Interned at Genetec, contributing to a multi-platform design system using StencilJS, TypeScript, and Storybook for reusable web components."
+    },
+    "hackathon": {
+      "date": "Feb 2025",
+      "title": "First Hackathon – McHacks",
+      "description": "Built CasperAI, an AI-powered CASPer test prep tool using React, Node.js, and the OpenAI API during McHacks 2025."
+    },
+    "hackathonWin": {
+      "date": "Mar 2025",
+      "title": "First Hackathon Win – PolyHacks",
+      "description": "Won 1st place at PolyHacks 2025 with AquaScan, a React Native app that identifies fish species and checks Quebec fishing regulations using AI."
+    }
   },
   "projects": {
     "title": "Projects",
