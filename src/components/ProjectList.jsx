@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/ProjectList.module.css';
 import projects from '/public/data/projects.js';
 import { useTranslation } from 'react-i18next';
+import Card from './Card.jsx'
 
 
 const ProjectList = () => {
@@ -10,8 +11,7 @@ const ProjectList = () => {
     return (
         <div className={styles.list}>
             {projects.map((project) => (
-                <div key={project.id} className={styles.border}>
-                    <div className={styles.card}>
+                <Card key={project.id} style={{ width: '18.75rem' }}>
                         {project.image && (
                             <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
                         )}
@@ -22,10 +22,7 @@ const ProjectList = () => {
                                 {t('projects.viewProject')}
                             </a>
                         )}
-
-                    </div>
-
-                </div>
+                </Card>
             ))}
         </div>
     );

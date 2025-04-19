@@ -4,6 +4,7 @@ import { DiMongodb, DiAndroid, DiGit, DiVisualstudio } from 'react-icons/di';
 import { SiExpress, SiEclipseide, SiIntellijidea, SiWebstorm, SiPycharm, SiC } from 'react-icons/si';
 import styles from '../styles/Skills.module.css';
 import { useTranslation } from 'react-i18next';
+import Card from './Card.jsx';
 
 
 const Skills = () => {
@@ -35,14 +36,13 @@ const Skills = () => {
         { name: "Express", icon: <SiExpress /> },
         { name: "ReactJS", icon: <FaReact /> },
         { name: "Node.js", icon: <FaNodeJs /> },
-        // { name: "C (beginner)", icon: <SiC /> },
+        { name: "C (beginner)", icon: <SiC /> },
     ];
 
     return (
-        <div className={styles.skillBorder}>
-            <div className={styles.skillsContainer}>
+        <Card style={{ width: '60%' }}>
 
-                <h2 className={styles.sectionTitle}>{t('skills.app')}</h2>
+                <h2>{t('skills.app')}</h2>
                 <div className={styles.skillsList}>
                     {applications.map((app, index) => (
                         <div key={index} className={styles.skillItem}>
@@ -73,8 +73,7 @@ const Skills = () => {
                     ))}
                 </div>
 
-            </div>
-        </div>
+        </Card>
 
     );
 };

@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
-import Timeline from './Timeline.jsx'
-import ProjectList from './ProjectList';
-import Header from './Header';
-import Footer from './Footer';
-import Background from './Background.jsx';
+import Timeline from '../components/Timeline.jsx'
+import ProjectList from '../components/ProjectList.jsx';
+import Header from '../components/Header.jsx';
+import Footer from '../components/Footer.jsx';
+import Background from '../components/Background.jsx';
 import { useTranslation } from 'react-i18next';
-import Skills from "./Skills.jsx";
+import Skills from "../components/Skills.jsx";
 
 const Home = () => {
     const { t } = useTranslation();
