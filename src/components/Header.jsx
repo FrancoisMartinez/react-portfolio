@@ -56,11 +56,14 @@ const Header = () => {
                 >
                     <FaBars/>
                 </button>
-            </div>
+        </div>
 
             <nav className={styles.nav}>
                 <Link to="about" smooth={true} duration={500}>
                     {t('header.about')}
+                </Link>
+                <Link to="timeline" smooth={true} duration={500}>
+                    {t('header.timeline')}
                 </Link>
                 <Link to="projects" smooth={true} duration={500}>
                     {t('header.projects')}

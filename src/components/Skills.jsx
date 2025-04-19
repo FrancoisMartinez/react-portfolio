@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaJava, FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { DiMongodb, DiAndroid, DiGit, DiVisualstudio } from 'react-icons/di';
-import { SiExpress, SiEclipseide, SiIntellijidea, SiWebstorm, SiPycharm, SiC } from 'react-icons/si';
+import { FaJava, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { DiMongodb, DiAndroid, DiVisualstudio } from 'react-icons/di';
+import { SiExpress, SiEclipseide, SiIntellijidea, SiWebstorm, SiPycharm, SiC, SiTypescript, SiStencil, SiExpo, SiPuppeteer, SiJest, SiMocha, SiChai, SiGit, SiReact, SiPython, SiJavascript  } from 'react-icons/si';
+import { VscAzureDevops } from "react-icons/vsc";
+import { BsFiletypeScss } from "react-icons/bs";
 import styles from '../styles/Skills.module.css';
 import { useTranslation } from 'react-i18next';
 import Card from './Card.jsx';
@@ -19,24 +21,35 @@ const Skills = () => {
         { name: "PyCharm", icon: <SiPycharm /> },
         { name: "Android Studio", icon: <DiAndroid /> },
         { name: "GitHub", icon: <FaGithub /> },
+        { name: "Azure DevOps", icon: <VscAzureDevops/> }
     ];
 
-    const methodologies = [
-        // { name: "Agile", icon: <SiAgile /> },
-        // { name: "Scrum", icon: <SiScrum /> },
-    ];
+    // const methodologies = [
+    //     { name: "Agile", icon: <SiAgile /> },
+    //     { name: "Scrum", icon: <SiScrum /> },
+    // ];
 
     const programming = [
         { name: "Java", icon: <FaJava /> },
-        { name: "Python", icon: <FaPython /> },
-        { name: "JavaScript", icon: <FaJsSquare /> },
+        { name: "Python", icon: <SiPython /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
+        { name: "JavaScript", icon: <SiJavascript /> },
         { name: "HTML", icon: <FaHtml5 /> },
         { name: "CSS", icon: <FaCss3Alt /> },
+        { name: "SCSS", icon: <BsFiletypeScss /> },
+        { name: "C", icon: <SiC /> },
         { name: "MongoDB", icon: <DiMongodb /> },
         { name: "Express", icon: <SiExpress /> },
-        { name: "ReactJS", icon: <FaReact /> },
+        { name: "React.js", icon: <SiReact /> },
+        { name: "React Native", icon: <SiReact /> },
         { name: "Node.js", icon: <FaNodeJs /> },
-        { name: "C (beginner)", icon: <SiC /> },
+        { name: "Stencil.js", icon: <SiStencil /> },
+        { name: "Expo", icon: <SiExpo /> },
+        { name: "Puppeteer", icon: <SiPuppeteer /> },
+        { name: "Jest", icon: <SiJest /> },
+        { name: "Mocha", icon: <SiMocha /> },
+        { name: "Chai", icon: <SiChai /> },
+        { name: "Git", icon: <SiGit/> },
     ];
 
     return (
@@ -53,15 +66,15 @@ const Skills = () => {
                     ))}
                 </div>
 
-                {/*<h2 className={styles.sectionTitle}>Methodologies</h2>*/}
-                {/*<div className={styles.skillsList}>*/}
-                {/*    {methodologies.map((method, index) => (*/}
-                {/*            <div key={index} className={styles.skillItem}>*/}
-                {/*                {method.icon}*/}
-                {/*                <span>{method.name}</span>*/}
-                {/*        </div>*/}
-                {/*    ))}*/}
-                {/*</div>*/}
+                {/* <h2 className={styles.sectionTitle}>Methodologies</h2>
+                <div className={styles.skillsList}>
+                   {methodologies.map((method, index) => (
+                           <div key={index} className={styles.skillItem}>
+                               {method.icon}
+                               <span>{method.name}</span>
+                       </div>
+                   ))}
+                </div> */}
 
                 <h2 className={styles.sectionTitle}>{t('skills.programming')}</h2>
                 <div className={styles.skillsList}>
