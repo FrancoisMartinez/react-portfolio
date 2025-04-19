@@ -25,7 +25,7 @@ const Home = () => {
                     <p>{t('home.description')}</p>
                 </section>
 
-                <section id="timeline" className={styles.work}>
+                <section id="timeline" className={styles.timeline}>
                     <h2>{t('timeline.title')}</h2>
                     <Timeline/>
                 </section>

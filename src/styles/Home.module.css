@@ -42,6 +42,13 @@ p {
     margin: 0 auto;
 }
 
+.timeline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .projects {
     padding: 4rem 2rem;
 }

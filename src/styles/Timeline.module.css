@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.topEnd, .bottomEnd {
+    height: 1rem;
+    width: 0.5rem;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: var(--transparent-background-color);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.topEnd {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.bottomEnd {
+    border-radius: 0 0 1rem 1rem;
+}

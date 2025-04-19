@@ -2,45 +2,28 @@ import React from 'react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from '../styles/Timeline.module.css';
+import Event from './Event.jsx';
+import timelineEvents from '/public/data/timelineEvents.js';
 
 const Timeline = () => {
     const { t } = useTranslation();
 
-    const timelineEvents = [
-        {
-          id: 1,
-          date: t('timeline.university.date'),
-          title: t('timeline.university.title'),
-          description: t('timeline.university.description'),
-          category: "education"
-        },
-        {
-          id: 2,
-          date: t('timeline.internship1.date'),
-          title: t('timeline.internship1.title'),
-          description: t('timeline.internship1.description'),
-          category: "experience"
-        },
-        {
-          id: 3,
-          date: t('timeline.hackathon.date'),
-          title: t('timeline.hackathon.title'),
-          description: t('timeline.hackathon.description'),
-          category: "achievement"
-        },
-        {
-          id: 4,
-          date: t('timeline.hackathonWin.date'),
-          title: t('timeline.hackathonWin.title'),
-          description: t('timeline.hackathonWin.description'),
-          category: "achievement"
-        },
-      ];
+
 
     return (
-        <>
-
-        </>
+        <div className={styles.container}>
+            <div className={styles.topEnd}></div>
+            
+                {timelineEvents.map((timelineEvent) => (
+                    <Event key={timelineEvent.id} style={{ width: '18.75rem' }} side={timelineEvent.id % 2 == 0 ? 'left' : 'right'}>
+                            {/* <h2>{t(timelineEvent.title)}</h2>
+                            <p>{t(timelineEvent.description)}</p> */}
+                            <h2>Title</h2>
+                            <p>description</p>
+                    </Event>
+                ))}
+            <div className={styles.bottomEnd}></div>
+        </div>
     );
 }
 
