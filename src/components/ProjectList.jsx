@@ -9,9 +9,9 @@ const ProjectList = () => {
     const { t } = useTranslation();
 
     return (
-        <div className={styles.list}>
+        <div className={styles.container}>
             {projects.map((project) => (
-                <Card key={project.id} style={{ width: '18.75rem' }}>
+                <Card key={project.id} style={{ flex: '1', minWidth: '14rem', maxWidth: '20rem' }}>
                         {project.image && (
                             <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
                         )}

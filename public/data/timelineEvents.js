@@ -29,6 +29,12 @@ const timelineEvents = [
       titleKey: 'timeline.hackathonWin.title',
       descriptionKey: 'timeline.hackathonWin.description',
     },
+    {
+      id: 6,
+      dateKey: 'timeline.next.date',
+      titleKey: 'timeline.next.title',
+      descriptionKey: 'timeline.next.description',
+    },
   ];
 
 export default timelineEvents;

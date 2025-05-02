@@ -1,13 +1,12 @@
 
-.list {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    width: 60%;
 }
 
 @media (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
+
 }

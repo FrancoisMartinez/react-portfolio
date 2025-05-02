@@ -53,9 +53,9 @@ const Skills = () => {
     ];
 
     return (
-        <Card style={{ width: '60%' }}>
-
-                <h2>{t('skills.app')}</h2>
+        <div className={styles.container}>
+            <Card style={{flexDirection: 'row', flexWrap: 'wrap', gap: '15px', justifyContent: 'center'}}>
+                {/* <h2>{t('skills.app')}</h2>
                 <div className={styles.skillsList}>
                     {applications.map((app, index) => (
                         <div key={index} className={styles.skillItem}>
@@ -64,30 +64,29 @@ const Skills = () => {
                         </div>
 
                     ))}
-                </div>
+                </div> */}
 
                 {/* <h2 className={styles.sectionTitle}>Methodologies</h2>
                 <div className={styles.skillsList}>
-                   {methodologies.map((method, index) => (
-                           <div key={index} className={styles.skillItem}>
-                               {method.icon}
-                               <span>{method.name}</span>
-                       </div>
-                   ))}
+                {methodologies.map((method, index) => (
+                        <div key={index} className={styles.skillItem}>
+                            {method.icon}
+                            <span>{method.name}</span>
+                    </div>
+                ))}
                 </div> */}
 
-                <h2 className={styles.sectionTitle}>{t('skills.programming')}</h2>
-                <div className={styles.skillsList}>
+                {/* <h2 className={styles.sectionTitle}>{t('skills.programming')}</h2> */}
                     {programming.map((skill, index) => (
                         <div key={index} className={styles.skillItem}>
                             {skill.icon}
                             <span>{skill.name}</span>
                         </div>
                     ))}
-                </div>
 
-        </Card>
-
+            </Card>
+        </div>
+        
     );
 };
 

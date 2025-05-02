@@ -30,6 +30,12 @@ const projects = [
         year: '2024',
         type: 'Academic',
     },
+    {
+        id: 5,
+    },
+    {
+        id: 6,
+    }
 ];
 
 export default projects;
