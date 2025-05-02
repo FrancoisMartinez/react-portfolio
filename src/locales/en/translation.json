@@ -64,7 +64,18 @@
       "title": "Java Othello Game ",
       "description": "Built a fully functional Othello game in Java, implementing core mechanics and object-oriented design."
     },
-    "viewProject": "View Project"
+    "peerReview": {
+      "title": "Full Stack Peer Review Service",
+      "description": "Led a team to build a full-stack app for peer and professor reviews. Integrated state management, Agile practices, and CI with Mocha/Chai tests."
+    },
+    "fishingAssistant": {
+      "title": "AI-Powered Fishing Assistant (PolyHacks 2025 Winner)",
+      "description": "Built a React Native app to identify fish species and verify Quebec fishing laws using AI and web scraping. Won 1st place at PolyHacks 2025."
+    },
+    "casperAI": {
+      "title": "CasperAI (McHacks 2025)",
+      "description": "Created an AI-powered practice tool for the CASPer test using OpenAI API. Delivered actionable feedback on empathy, ethics, and decision-making."
+    }
   },
   "skills": {
     "title": "Skills",

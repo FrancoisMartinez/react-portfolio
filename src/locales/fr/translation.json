@@ -63,7 +63,18 @@
       "title": "Jeu d'Othello en Java",
       "description": "Conçu un jeu d'Othello en Java, en implémentant les mécanismes de base et le design orienté objet."
     },
-    "viewProject": "Voir le projet"
+    "peerReview": {
+      "title": "Service de Révision par les Pairs Full Stack",
+      "description": "Dirigé une équipe pour développer une application full stack permettant la révision entre étudiants et la gestion par les professeurs. Intégré une gestion d'état, des pratiques Agile et une CI avec des tests Mocha/Chai."
+    },
+    "fishingAssistant": {
+      "title": "Assistant de Pêche IA (Gagnant PolyHacks 2025)",
+      "description": "Créé une application mobile avec React Native pour identifier les espèces de poissons et vérifier les règlements québécois via l'IA et le web scraping. Gagné la 1ère place à PolyHacks 2025."
+    },
+    "casperAI": {
+      "title": "CasperAI (McHacks 2025)",
+      "description": "Développé un outil d'entraînement propulsé par l'IA pour le test CASPer en utilisant l'API OpenAI. Fournit des retours sur l'empathie, l’éthique et la prise de décision."
+    }
   },
   "skills": {
     "title": "Compétences",
