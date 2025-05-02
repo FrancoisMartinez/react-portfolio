@@ -15,12 +15,12 @@
     "title": "Timeline",
     
     "cegep": {
-      "date": "2023",
+      "date": "Dec 2023",
       "title": "CÉGEP Graduation",
       "description": "Completed a DEC in Natural Sciences at Bois-de-Boulogne College."
     },
     "university": {
-      "date": "2024",
+      "date": "Jan 2024",
       "title": "Started University",
       "description": "Began a Bachelor's in Software Engineering at Concordia University in the Co-op program."
     },
@@ -38,6 +38,11 @@
       "date": "Mar 2025",
       "title": "First Hackathon Win – PolyHacks",
       "description": "Won 1st place at PolyHacks 2025 with AquaScan, a React Native app that identifies fish species and checks Quebec fishing regulations using AI."
+    },
+    "next": {
+      "date": "Sept 2025",
+      "title": "Second Software Development Internship",
+      "description": "Currently seeking a second internship opportunity."
     }
   },
   "projects": {

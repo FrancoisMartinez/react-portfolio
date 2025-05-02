@@ -15,12 +15,12 @@
     "title": "Parcours ",
 
     "cegep": {
-      "date": "2023",
+      "date": "Déc. 2023",
       "title": "Diplôme du CÉGEP",
       "description": "Diplômé en sciences de la nature au Collège Bois-de-Boulogne."
     },
     "university": {
-      "date": "2024",
+      "date": "Janv. 2024",
       "title": "Début à l’Université",
       "description": "Début du baccalauréat en génie logiciel à l’Université Concordia dans le programme coop."
     },
@@ -38,6 +38,11 @@
       "date": "Mars 2025",
       "title": "Première victoire en hackathon – PolyHacks",
       "description": "Gagné la 1ère place à PolyHacks 2025 avec AquaScan, une app React Native qui identifie les poissons et vérifie les règlements de pêche au Québec grâce à l’IA."
+    },
+    "next": {
+      "date": "Sept. 2025",
+      "title": "Deuxième stage en développement logiciel",
+      "description": "Actuellement à la recherche d'une deuxième opportunité de stage."
     }
   },
   "projects": {
