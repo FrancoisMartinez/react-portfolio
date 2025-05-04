@@ -9,8 +9,7 @@
   },
   "home": {
     "greeting": "Bonjour, je suis François Martinez",
-    "description": "Je suis étudiant en génie logiciel à l’Université Concordia, avec un intérêt pour les dernières technologies de développement web et la programmation. Expérimenté en développement full-stack avec le stack MERN et Java, je suis enthousiaste à l'idée d'apprendre continuellement et d'explorer de nouvelles technologies pour élargir mes compétences."
-  },
+"description": "Je suis étudiant en génie logiciel en stage coopératif à Concordia, avec une expérience de stage chez Genetec, où j’ai contribué à la création d’un système de design à l’échelle de l’entreprise. J’ai également remporté PolyHacks 2025 grâce à une application mobile alimentée par l’IA pour promouvoir la pêche durable. Je suis toujours curieux d’apprendre et d’explorer de nouvelles technologies."  },
   "timeline": {
     "title": "Parcours ",
 

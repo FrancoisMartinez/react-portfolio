@@ -9,8 +9,7 @@
   },
   "home": {
     "greeting": "Hi, I'm François Martinez",
-    "description": "I’m a Software Engineering Co-op student at Concordia University with an interest in the latest web development technologies and programming. Experienced in full-stack development using the MERN stack and Java, I’m excited to continuously learn and explore new technologies to expand my skill set."
-  },
+"description": "I'm a Software Engineering Co-op student at Concordia with internship experience at Genetec, where I helped build a company-wide design system. I also won PolyHacks 2025 for creating an AI-powered app promoting sustainable fishing. I'm always eager to learn and explore new technologies."  },
   "timeline": {
     "title": "Timeline",
     
