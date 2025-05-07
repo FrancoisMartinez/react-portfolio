@@ -47,9 +47,9 @@ const Home = () => {
                         href="mailto:francoisjmartinez07@gmail.com">francoisjmartinez07@gmail.com</a>
                     </p>
                     <p>
-                        LinkedIn:<a href="https://www.linkedin.com/in/francois-j-martinez/"
+                        LinkedIn:<a href="https://www.linkedin.com/in/francois--martinez/"
                                      target="_blank"
-                                     rel="noopener noreferrer">www.linkedin.com/in/francois-j-martinez</a>
+                                     rel="noopener noreferrer">www.linkedin.com/in/francois--martinez</a>
                     </p>
                     <p>
                         GitHub:<a href="https://github.com/FrancoisMartinez"
