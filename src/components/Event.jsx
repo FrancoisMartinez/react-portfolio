@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Event.module.css';
 import Card from './Card.jsx';
 
-const Event = ({ children, date, side }) => {
+const Event = ({ children, date, side, dateWidth }) => {
     
     const timeline = (
         <div className={styles.timeline}>
@@ -18,12 +18,12 @@ const Event = ({ children, date, side }) => {
                 <div className={styles.event}>
                     <Card style={{ width: '24rem', margin: '1rem 0' }}>{children}</Card>
                     {timeline}
-                    <div className={styles.date} style={{ textAlign: 'start' }}><p>{date}</p></div>
+                    <div className={styles.date} style={{ textAlign: 'start', width: dateWidth}}><p>{date}</p></div>
                 </div>
             }
             {side === 'right' &&
                 <div className={styles.event}>
-                    <div className={styles.date} style={{ textAlign: 'end' }}><p>{date}</p></div>
+                    <div className={styles.date} style={{ textAlign: 'end', width: dateWidth }}><p>{date}</p></div>
                     {timeline}
                     <Card style={{ width: '24rem', margin: '1rem 0' }}>{children}</Card>
                 </div>

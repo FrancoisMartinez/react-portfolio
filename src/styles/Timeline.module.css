@@ -14,10 +14,11 @@
     width: 0.5rem;
     position: relative;
     z-index: 1;
-    margin: 0 auto;
     background-color: var(--transparent-background-color);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    margin-left: 24rem;
+    margin-right: 24rem
 }
 
 .topEnd {
