@@ -48,7 +48,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
-    /* overflow-y: scroll; */
+    background-color: var(--background-color);
 }
 html {
     height: 100%;
