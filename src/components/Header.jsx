@@ -94,6 +94,9 @@ const Header = () => {
                 <Link to="about" smooth={true} duration={500} onClick={toggleMenu}>
                     {t('header.about')}
                 </Link>
+                <Link to="timeline" smooth={true} duration={500} onClick={toggleMenu}>
+                    {t('header.timeline')}
+                </Link>
                 <Link to="projects" smooth={true} duration={500} onClick={toggleMenu}>
                     {t('header.projects')}
                 </Link>
