@@ -12,9 +12,21 @@ const Timeline = () => {
     
     useEffect(() => {
         const handleResize = () => {
-            setSide(window.innerWidth < 850 ? 0 : 2);
-            setDateWidth(window.innerWidth < 850 ? '6rem' : '24rem');
-            setEventWidth(window.innerWidth < 850 ? '12rem' : '24rem');
+            setSide(window.innerWidth < 750 ? 0 : 2);
+
+            if (window.innerWidth < 550) {
+                setDateWidth('6rem');
+                setEventWidth('12rem');
+            } else if (window.innerWidth < 650) {
+                setDateWidth('6rem');
+                setEventWidth('18rem');
+            } else if (window.innerWidth < 750) {
+                setDateWidth('12rem');
+                setEventWidth('24rem');
+            } else {
+                setDateWidth('24rem');
+                setEventWidth('24rem');
+            }
         };
     
         handleResize();
