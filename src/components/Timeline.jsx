@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from '../styles/Timeline.module.css';
 import Event from './Event.jsx';
-import timelineEvents from '/public/data/timelineEvents.js';
+import timelineEvents from '../data/timelineEvents.js';
 
 const Timeline = () => {
     const [side, setSide] = useState(2);
