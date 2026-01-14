@@ -9,7 +9,7 @@
   },
   "home": {
     "greeting": "Bonjour, je suis François Martinez",
-"description": "Je suis étudiant en génie logiciel en stage coopératif à Concordia, avec une expérience de stage chez Genetec, où j’ai contribué à la création d’un système de design à l’échelle de l’entreprise. J’ai également remporté PolyHacks 2025 grâce à une application mobile alimentée par l’IA pour promouvoir la pêche durable. Je suis toujours curieux d’apprendre et d’explorer de nouvelles technologies."  },
+"description": "Je suis étudiant en génie logiciel en stage coopératif à Concordia, avec une expérience de stage chez Genetec et Intact. Chez Genetec, j'ai travaillé sur un système de design à l'échelle de l'entreprise, et chez Intact, j'ai travaillé comme développeur DevOps en construisant des pipelines CI/CD. J'ai également remporté PolyHacks 2025 grâce à une application mobile alimentée par l'IA pour promouvoir la pêche durable. Je suis toujours curieux d'apprendre et d'explorer de nouvelles technologies."  },
   "timeline": {
     "title": "Parcours ",
 
@@ -28,6 +28,11 @@
       "title": "Premier stage en développement logiciel",
       "description": "Stage chez Genetec en tant que développeur logiciel, contribuant à un design system multi-plateforme avec StencilJS, TypeScript et Storybook."
     },
+    "internship2": {
+      "date": "Sept. 2025 – Déc. 2025",
+      "title": "Deuxième stage en développement logiciel",
+      "description": "Stage chez Intact en tant que développeur DevOps, construisant des pipelines CI/CD avec GitHub Actions et développant des outils d'automatisation Node.js pour les déploiements en production."
+    },
     "hackathon": {
       "date": "Févr. 2025",
       "title": "Premier hackathon – McHacks",
@@ -39,9 +44,9 @@
       "description": "Gagné la 1ère place à PolyHacks 2025 avec AquaScan, une app React Native qui identifie les poissons et vérifie les règlements de pêche au Québec grâce à l’IA."
     },
     "next": {
-      "date": "Sept. 2025",
-      "title": "Deuxième stage en développement logiciel",
-      "description": "Actuellement à la recherche d'une deuxième opportunité de stage."
+      "date": "Janv. 2026",
+      "title": "Prochaine étape ?",
+      "description": "Actuellement à la recherche de ma troisième opportunité de stage pour continuer à me développer en tant que développeur logiciel."
     }
   },
   "projects": {

@@ -9,7 +9,7 @@
   },
   "home": {
     "greeting": "Hi, I'm François Martinez",
-"description": "I'm a Software Engineering Co-op student at Concordia with internship experience at Genetec, where I helped build a company-wide design system. I also won PolyHacks 2025 for creating an AI-powered app promoting sustainable fishing. I'm always eager to learn and explore new technologies."  },
+"description": "I'm a Software Engineering Co-op student at Concordia with internship experience at Genetec and Intact. At Genetec, I worked on a company-wide design system, and at Intact, I worked as a DevOps Developer building CI/CD pipelines. I also won PolyHacks 2025 for creating an AI-powered app promoting sustainable fishing. I'm always eager to learn and explore new technologies."  },
   "timeline": {
     "title": "Timeline",
     
@@ -28,6 +28,11 @@
       "title": "First Software Development Internship",
       "description": "Interned at Genetec, contributing to a multi-platform design system using StencilJS, TypeScript, and Storybook for reusable web components."
     },
+    "internship2": {
+      "date": "Sep 2025 – Dec 2025",
+      "title": "Second Software Development Internship",
+      "description": "Interned at Intact as a DevOps Developer, building CI/CD pipelines with GitHub Actions and developing Node.js automation tools for production releases."
+    },
     "hackathon": {
       "date": "Feb 2025",
       "title": "First Hackathon – McHacks",
@@ -39,9 +44,9 @@
       "description": "Won 1st place at PolyHacks 2025 with AquaScan, a React Native app that identifies fish species and checks Quebec fishing regulations using AI."
     },
     "next": {
-      "date": "Sept 2025",
-      "title": "Second Software Development Internship",
-      "description": "Currently seeking a second internship opportunity."
+      "date": "Jan 2026",
+      "title": "What's Next?",
+      "description": "Currently seeking my third internship opportunity to continue growing as a software developer."
     }
   },
   "projects": {

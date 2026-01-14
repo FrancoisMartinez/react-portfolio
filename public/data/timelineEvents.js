@@ -31,6 +31,12 @@ const timelineEvents = [
     },
     {
       id: 6,
+      dateKey: 'timeline.internship2.date',
+      titleKey: 'timeline.internship2.title',
+      descriptionKey: 'timeline.internship2.description',
+    },
+    {
+      id: 7,
       dateKey: 'timeline.next.date',
       titleKey: 'timeline.next.title',
       descriptionKey: 'timeline.next.description',
