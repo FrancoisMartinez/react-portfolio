@@ -6,7 +6,6 @@ import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import Background from '../components/Background.jsx';
 import { useTranslation } from 'react-i18next';
-import Skills from "../components/Skills.jsx";
 
 const Home = () => {
     const { t } = useTranslation();
@@ -35,11 +34,6 @@ const Home = () => {
                     <ProjectList/>
                 </section>
 
-                <section id="skills" className={styles.skills}>
-                    <h2>{t('skills.title')}</h2>
-                    <Skills/>
-                </section>
-
                 <section id="contact" className={styles.contact}>
                     <h2>{t('contact.title')}</h2>
                     <p>
@@ -58,13 +52,9 @@ const Home = () => {
                     </p>
 
                     <p>
-                        CV:
-                        <a onClick={() => {
-                            window.open('/Martinez_F_CV_En.pdf', '_blank');
-                        }}>{t('contact.English')}</a>
-                        <a onClick={() => {
-                            window.open('/Martinez_F_CV_Fr.pdf', '_blank');
-                        }}>{t('contact.French')}</a>
+                        CV:<a href="/Martinez_F_CV_En.pdf"
+                               target="_blank"
+                               rel="noopener noreferrer">{t('contact.cv')}</a>
                     </p>
 
                 </section>

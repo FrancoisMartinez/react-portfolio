@@ -3,15 +3,15 @@
     "about": "À propos",
     "timeline": "Parcours",
     "projects": "Projets",
-    "skills": "Compétences",
     "contact": "Contact",
     "downloadCV": "Télécharger le CV"
   },
   "home": {
     "greeting": "Bonjour, je suis François Martinez",
-"description": "Je suis étudiant en génie logiciel en stage coopératif à Concordia, avec une expérience de stage chez Genetec et Intact. Chez Genetec, j'ai travaillé sur un système de design à l'échelle de l'entreprise, et chez Intact, j'ai travaillé comme développeur DevOps en construisant des pipelines CI/CD. J'ai également remporté PolyHacks 2025 grâce à une application mobile alimentée par l'IA pour promouvoir la pêche durable. Je suis toujours curieux d'apprendre et d'explorer de nouvelles technologies."  },
+    "description": "Je suis étudiant en génie logiciel au programme coop de l'Université Concordia à Montréal, diplômé prévu en 2027. J'ai fait un stage chez Genetec, où j'ai développé des composants web pour leur design system, et chez Intact, où j'ai bâti l'infrastructure CI/CD comme développeur DevOps. Je suis maintenant de retour chez Intact pour développer leur parcours de soumission d'assurance en ligne, et depuis mai 2026 je livre des outils de recrutement à LH Sales Consulting sous contrat. En 2025, mon équipe a remporté la première place à PolyHacks avec une application mobile qui identifie les espèces de poissons et vérifie les règlements de pêche du Québec."
+  },
   "timeline": {
-    "title": "Parcours ",
+    "title": "Parcours",
 
     "cegep": {
       "date": "Déc. 2023",
@@ -20,79 +20,84 @@
     },
     "university": {
       "date": "Janv. 2024",
-      "title": "Début à l’Université",
-      "description": "Début du baccalauréat en génie logiciel à l’Université Concordia dans le programme coop."
+      "title": "Début à l'Université",
+      "description": "Début du baccalauréat en génie logiciel à l'Université Concordia dans le programme coop."
     },
-    "internship1": {
+    "genetec": {
       "date": "Janv. 2025 – Mai 2025",
-      "title": "Premier stage en développement logiciel",
-      "description": "Stage chez Genetec en tant que développeur logiciel, contribuant à un design system multi-plateforme avec StencilJS, TypeScript et Storybook."
-    },
-    "internship2": {
-      "date": "Sept. 2025 – Déc. 2025",
-      "title": "Deuxième stage en développement logiciel",
-      "description": "Stage chez Intact en tant que développeur DevOps, construisant des pipelines CI/CD avec GitHub Actions et développant des outils d'automatisation Node.js pour les déploiements en production."
+      "title": "Stagiaire développeur logiciel chez Genetec",
+      "description": "Développement de composants web réutilisables en TypeScript et StencilJS pour le design system de Genetec, utilisés par des équipes dans des applications HTML, React et Angular. Rédaction de tests unitaires Jest et de tests de régression visuelle Puppeteer, et maintien de la référence de composants Storybook."
     },
     "hackathon": {
       "date": "Févr. 2025",
-      "title": "Premier hackathon – McHacks",
-      "description": "Création de CasperAI, un outil de préparation au test CASPer basé sur l’IA, utilisant React, Node.js et l’API OpenAI, lors de McHacks 2025."
+      "title": "Premier hackathon : McHacks",
+      "description": "Création de CasperAI, un outil de préparation au test CASPer basé sur l'IA, utilisant React, Node.js et l'API OpenAI, lors de McHacks 2025."
     },
     "hackathonWin": {
       "date": "Mars 2025",
-      "title": "Première victoire en hackathon – PolyHacks",
-      "description": "Gagné la 1ère place à PolyHacks 2025 avec AquaScan, une app React Native qui identifie les poissons et vérifie les règlements de pêche au Québec grâce à l’IA."
+      "title": "Première victoire en hackathon : PolyHacks",
+      "description": "Première place sur 47 projets à PolyHacks 2025 avec AquaScan, une application React Native qui identifie les espèces de poissons à partir d'une photo et vérifie chaque prise selon les règlements de pêche du Québec."
+    },
+    "intactDevops": {
+      "date": "Sept. 2025 – Déc. 2025",
+      "title": "Stagiaire développeur DevOps chez Intact",
+      "description": "Principal contributeur à une application Node.js dont dépendaient d'autres équipes pour leurs mises en production. Développement de son intégration Jira et ServiceNow, maintien de l'infrastructure CI/CD de l'organisation, et rédaction de workflows GitHub Actions qui construisent des images Podman et les déploient sur Kubernetes via ArgoCD."
+    },
+    "lh": {
+      "date": "Mai 2026 – Présent",
+      "title": "Développeur logiciel contractuel chez LH Sales Consulting",
+      "description": "Livraison d'un outil de débriefing d'entrevue en Next.js sur l'API Gemini, utilisé par l'équipe de recrutement après chaque entrevue, d'une extension Chrome en TypeScript qui importe des prospects LinkedIn dans le CRM Bigin via OAuth 2.0, et de pipelines Python qui ont migré l'ATS de la firme hors des feuilles de calcul."
+    },
+    "intactDev": {
+      "date": "Sept. 2026 – Présent",
+      "title": "Stagiaire développeur logiciel chez Intact",
+      "description": "De retour chez Intact pour un deuxième stage, développement du parcours public de soumission d'assurance en ligne avec Angular et des services REST Spring Boot."
     },
     "next": {
-      "date": "Janv. 2026",
+      "date": "Été 2027",
       "title": "Prochaine étape ?",
-      "description": "Actuellement à la recherche de ma troisième opportunité de stage pour continuer à me développer en tant que développeur logiciel."
+      "description": "En recherche d'un stage en génie logiciel pour l'été 2027 avant d'obtenir mon diplôme de Concordia."
     }
   },
   "projects": {
     "title": "Projets",
-    "paperTrading": {
-      "title": "Plateforme de Trading Virtuel MERN Full Stack",
-      "description": "Co-développement d'une plateforme simulant le trading d'actions américaines avec des données en temps réel."
+    "viewProject": "Voir sur GitHub",
+
+    "aquaScan": {
+      "title": "AquaScan (Gagnant PolyHacks 2025)",
+      "description": "Application mobile qui identifie une espèce de poisson à partir d'une photo et vérifie la prise selon les règlements de pêche du Québec. Combine la reconnaissance d'images avec un scraper des règlements québécois pour retourner un verdict de légalité par espèce. Première place sur 47 projets."
     },
-    "petAdoption": {
-      "title": "Service d'Adoption d'Animaux Full Stack",
-      "description": "Création d'une application web pour l'adoption d'animaux, permettant l'inscription et la gestion des annonces."
+    "agentHq": {
+      "title": "Agent HQ",
+      "description": "Système auto-hébergé d'orchestration d'agents IA qui achemine les requêtes Telegram vers Claude, Codex ou des modèles Ollama locaux, avec des profils d'agents qui isolent les identifiants et les permissions. Serveurs MCP pour GitHub, Google Drive et Outlook avec rafraîchissement des jetons OAuth, contrôles de concurrence et 28 modules de tests pytest."
     },
-    "marketForecaster": {
-      "title": "Prévisionniste de Marché en Machine Learning",
-      "description": "Développé un outil prédisant les prix du Bitcoin et du S&P 500 à l'aide de modèles de machine learning."
-    },
-    "othelloGame": {
-      "title": "Jeu d'Othello en Java",
-      "description": "Conçu un jeu d'Othello en Java, en implémentant les mécanismes de base et le design orienté objet."
+    "openRoad": {
+      "title": "Open Road",
+      "description": "Plateforme de leçons de conduite. Principal contributeur (41 commits sur 103) d'une équipe de 4 développant une API REST Spring Boot sécurisée avec Spring Security et JWT, exposant des endpoints de réservation, de jumelage, de disponibilité et d'itinéraires. Intégration de Google Maps, OSRM et HERE Transit pour les itinéraires et la recherche de stationnement à Montréal, avec couverture JaCoCo et Vitest."
     },
     "peerReview": {
-      "title": "Service de Révision par les Pairs Full Stack",
-      "description": "Dirigé une équipe pour développer une application full stack permettant la révision entre étudiants et la gestion par les professeurs. Intégré une gestion d'état, des pratiques Agile et une CI avec des tests Mocha/Chai."
+      "title": "Service de révision par les pairs",
+      "description": "Direction d'une équipe de 7 pour développer une application full stack de révision anonyme entre étudiants et de notation par les professeurs. Intégration d'une gestion d'état, de pratiques Agile et d'une CI avec des tests Mocha/Chai."
     },
-    "fishingAssistant": {
-      "title": "Assistant de Pêche IA (Gagnant PolyHacks 2025)",
-      "description": "Créé une application mobile avec React Native pour identifier les espèces de poissons et vérifier les règlements québécois via l'IA et le web scraping. Gagné la 1ère place à PolyHacks 2025."
+    "paperTrading": {
+      "title": "Plateforme de trading virtuel",
+      "description": "Co-développement d'une plateforme MERN full stack simulant le trading d'actions américaines avec des données de marché en temps réel."
     },
     "casperAI": {
       "title": "CasperAI (McHacks 2025)",
-      "description": "Développé un outil d'entraînement propulsé par l'IA pour le test CASPer en utilisant l'API OpenAI. Fournit des retours sur l'empathie, l’éthique et la prise de décision."
+      "description": "Outil d'entraînement propulsé par l'IA pour le test CASPer, bâti sur l'API OpenAI. Fournit des retours sur l'empathie, l'éthique et la prise de décision."
+    },
+    "marketForecaster": {
+      "title": "Prévisionniste de marché",
+      "description": "Outil prédisant les prix du Bitcoin et du S&P 500 à l'aide de modèles d'apprentissage automatique entraînés sur des données historiques."
     }
-  },
-  "skills": {
-    "title": "Compétences",
-    "app": "Applications et outils",
-    "programming": "Programmation"
   },
   "contact": {
     "title": "Contactez-moi",
-    "English": "Anglais",
-    "French": "Français"
+    "cv": "Télécharger mon CV"
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "build" : "Ce site web a été créé par moi en utilisant "
-
+    "build": "Ce site web a été créé par moi en utilisant "
   }
 }

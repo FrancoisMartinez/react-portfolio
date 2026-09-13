@@ -36,8 +36,7 @@ const Header = () => {
 
 
     const handleOpenPDF = () => {
-        const pdfUrl = i18n.language === 'en' ? '/Martinez_F_CV_En.pdf' : '/Martinez_F_CV_Fr.pdf';
-        window.open(pdfUrl, '_blank', 'noopener,noreferrer');
+        window.open('/Martinez_F_CV_En.pdf', '_blank', 'noopener,noreferrer');
     };
 
 
@@ -67,9 +66,6 @@ const Header = () => {
                 </Link>
                 <Link to="projects" smooth={true} duration={500}>
                     {t('header.projects')}
-                </Link>
-                <Link to="skills" smooth={true} duration={500}>
-                    {t('header.skills')}
                 </Link>
                 <Link to="contact" smooth={true} duration={500}>
                     {t('header.contact')}
