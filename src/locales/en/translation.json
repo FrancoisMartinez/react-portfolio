@@ -3,16 +3,16 @@
     "about": "About",
     "timeline": "Timeline",
     "projects": "Projects",
-    "skills": "Skills",
     "contact": "Contact",
     "downloadCV": "Download CV"
   },
   "home": {
     "greeting": "Hi, I'm François Martinez",
-"description": "I'm a Software Engineering Co-op student at Concordia with internship experience at Genetec and Intact. At Genetec, I worked on a company-wide design system, and at Intact, I worked as a DevOps Developer building CI/CD pipelines. I also won PolyHacks 2025 for creating an AI-powered app promoting sustainable fishing. I'm always eager to learn and explore new technologies."  },
+    "description": "I'm a Software Engineering Co-op student at Concordia University in Montréal, graduating in 2027. I've interned at Genetec, building web components for their design system, and at Intact, where I built CI/CD infrastructure as a DevOps developer. I'm now back at Intact developing their online insurance quoting flow, and since May 2026 I've been shipping recruiting tools for LH Sales Consulting on contract. In 2025 my team won first place at PolyHacks with a mobile app that identifies fish species and checks Quebec fishing regulations."
+  },
   "timeline": {
     "title": "Timeline",
-    
+
     "cegep": {
       "date": "Dec 2023",
       "title": "CÉGEP Graduation",
@@ -23,77 +23,81 @@
       "title": "Started University",
       "description": "Began a Bachelor's in Software Engineering at Concordia University in the Co-op program."
     },
-    "internship1": {
+    "genetec": {
       "date": "Jan 2025 – May 2025",
-      "title": "First Software Development Internship",
-      "description": "Interned at Genetec, contributing to a multi-platform design system using StencilJS, TypeScript, and Storybook for reusable web components."
-    },
-    "internship2": {
-      "date": "Sep 2025 – Dec 2025",
-      "title": "Second Software Development Internship",
-      "description": "Interned at Intact as a DevOps Developer, building CI/CD pipelines with GitHub Actions and developing Node.js automation tools for production releases."
+      "title": "Software Developer Intern at Genetec",
+      "description": "Built reusable web components in TypeScript and StencilJS for Genetec's design system, used by teams in HTML, React and Angular applications. Wrote Jest unit tests and Puppeteer visual regression tests, and maintained the Storybook component reference."
     },
     "hackathon": {
       "date": "Feb 2025",
-      "title": "First Hackathon – McHacks",
-      "description": "Built CasperAI, an AI-powered CASPer test prep tool using React, Node.js, and the OpenAI API during McHacks 2025."
+      "title": "First Hackathon: McHacks",
+      "description": "Built CasperAI, an AI-powered CASPer test prep tool using React, Node.js and the OpenAI API during McHacks 2025."
     },
     "hackathonWin": {
       "date": "Mar 2025",
-      "title": "First Hackathon Win – PolyHacks",
-      "description": "Won 1st place at PolyHacks 2025 with AquaScan, a React Native app that identifies fish species and checks Quebec fishing regulations using AI."
+      "title": "First Hackathon Win: PolyHacks",
+      "description": "Won 1st place out of 47 projects at PolyHacks 2025 with AquaScan, a React Native app that identifies fish species from a photo and checks each catch against Quebec fishing regulations."
+    },
+    "intactDevops": {
+      "date": "Sep 2025 – Dec 2025",
+      "title": "DevOps Developer Intern at Intact",
+      "description": "Top contributor to a Node.js application other teams relied on for production releases. Built its Jira and ServiceNow integration, maintained CI/CD infrastructure across the organization, and wrote GitHub Actions workflows that built Podman images and deployed them to Kubernetes through ArgoCD."
+    },
+    "lh": {
+      "date": "May 2026 – Present",
+      "title": "Software Developer, Contract at LH Sales Consulting",
+      "description": "Shipped a Next.js interview-debrief tool on the Gemini API that the recruiting team uses after every interview, a TypeScript Chrome extension that imports LinkedIn leads into Bigin CRM through OAuth 2.0, and Python pipelines that migrated the firm's ATS out of spreadsheets."
+    },
+    "intactDev": {
+      "date": "Sep 2026 – Present",
+      "title": "Software Developer Intern at Intact",
+      "description": "Back at Intact for a second internship, developing the public online insurance quoting flow with Angular and Spring Boot REST services."
     },
     "next": {
-      "date": "Jan 2026",
+      "date": "Summer 2027",
       "title": "What's Next?",
-      "description": "Currently seeking my third internship opportunity to continue growing as a software developer."
+      "description": "Applying for Summer 2027 software engineering internships before graduating from Concordia."
     }
   },
   "projects": {
     "title": "Projects",
+    "viewProject": "View on GitHub",
 
-    "paperTrading": {
-      "title": "MERN Full Stack Paper Trading Platform",
-      "description": "Co-developed a paper trading platform simulating U.S. equities trading with real-time market data."
+    "aquaScan": {
+      "title": "AquaScan (PolyHacks 2025 Winner)",
+      "description": "Mobile app that identifies a fish species from a photo and checks the catch against Quebec fishing regulations. Combined image recognition with a scraper of Quebec regulations to return a legality result for each species. Won 1st place out of 47 projects."
     },
-    "petAdoption": {
-      "title": "Full Stack Pet Adoption Service ",
-      "description": "Created a web application for a pet adoption service, allowing users to register and manage pet listings."
+    "agentHq": {
+      "title": "Agent HQ",
+      "description": "Self-hosted AI agent orchestration system that routes Telegram requests to Claude, Codex or local Ollama models, with agent profiles keeping credentials and permissions separate. Wrote MCP servers for GitHub, Google Drive and Outlook with OAuth token refresh, added concurrency controls, and covered it with 28 pytest modules."
     },
-    "marketForecaster": {
-      "title": "Machine Learning Market Forecaster ",
-      "description": "Developed a tool predicting Bitcoin and S&P 500 prices using machine learning models based on historical data."
-    },
-    "othelloGame": {
-      "title": "Java Othello Game ",
-      "description": "Built a fully functional Othello game in Java, implementing core mechanics and object-oriented design."
+    "openRoad": {
+      "title": "Open Road",
+      "description": "Driving lesson platform. Top contributor (41 of 103 commits) on a 4-person team building a Spring Boot REST API secured with Spring Security and JWT, exposing booking, matching, availability and routing endpoints. Integrated Google Maps, OSRM and HERE Transit for routing and parking discovery across Montréal, with JaCoCo and Vitest coverage."
     },
     "peerReview": {
-      "title": "Full Stack Peer Review Service",
-      "description": "Led a team to build a full-stack app for peer and professor reviews. Integrated state management, Agile practices, and CI with Mocha/Chai tests."
+      "title": "Peer Review Service",
+      "description": "Led a team of 7 to build a full-stack app for anonymous peer reviews and professor grading. Integrated state management, Agile practices and CI with Mocha/Chai tests."
     },
-    "fishingAssistant": {
-      "title": "AI-Powered Fishing Assistant (PolyHacks 2025 Winner)",
-      "description": "Built a React Native app to identify fish species and verify Quebec fishing laws using AI and web scraping. Won 1st place at PolyHacks 2025."
+    "paperTrading": {
+      "title": "Paper Trading Platform",
+      "description": "Co-developed a MERN full-stack platform simulating U.S. equities trading with real-time market data."
     },
     "casperAI": {
       "title": "CasperAI (McHacks 2025)",
-      "description": "Created an AI-powered practice tool for the CASPer test using OpenAI API. Delivered actionable feedback on empathy, ethics, and decision-making."
+      "description": "AI-powered practice tool for the CASPer test built on the OpenAI API. Delivers feedback on empathy, ethics and decision-making."
+    },
+    "marketForecaster": {
+      "title": "Market Forecaster",
+      "description": "Tool predicting Bitcoin and S&P 500 prices using machine learning models trained on historical data."
     }
-  },
-  "skills": {
-    "title": "Skills",
-    "app": "Applications & Tools",
-    "programming": "Programming"
-
   },
   "contact": {
     "title": "Contact Me",
-    "English": "English",
-    "French": "French"
+    "cv": "Download my CV"
   },
   "footer": {
     "rights": "All rights reserved.",
-    "build" : "This website was built by me using "
+    "build": "This website was built by me using "
   }
 }

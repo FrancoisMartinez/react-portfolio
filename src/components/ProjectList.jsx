@@ -16,6 +16,7 @@ const ProjectList = () => {
                             <img src={project.image} alt={t(project.titleKey)} className={styles.image} />
                         )}
                         <h2>{t(project.titleKey)}</h2>
+                        {project.tech && <p className={styles.tech}>{project.tech}</p>}
                         <p>{t(project.descriptionKey)}</p>
                         {project.link && (
                             <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
